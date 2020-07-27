@@ -25,10 +25,10 @@ html {
   padding: 0 80px;
 }
 
-.header {
+.page-header {
   margin-top: 40px;
 }
-.header .logo {
+.page-header .logo {
   width: 180px;
   height: 50px;
   display: flex;
@@ -40,7 +40,7 @@ html {
   color: #1968FC;
   padding: 10px 0;
 }
-.header .logo__image {
+.page-header .logo__image {
   margin-right: 10px;
 }
 
