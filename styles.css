@@ -1,3 +1,83 @@
+.page-header {
+  margin-top: 40px;
+  padding: 0 80px;
+}
+.page-header .logo {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1968FC;
+  padding: 10px 0;
+}
+.page-header .logo__image {
+  margin-right: 10px;
+}
+
+.headline__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  padding: 0 80px;
+  margin-top: 80px;
+}
+.headline__description {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0 80px;
+}
+.headline__btn {
+  background: #1968FC;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+  color: #fff;
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 300px;
+  height: 50px;
+  margin: 40px 80px 0 80px;
+  border: none;
+  outline: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+.headline__ilustration {
+  margin-top: 80px;
+  padding: 0 20px;
+}
+.headline__ilustration img {
+  max-width: 100%;
+}
+
+.redirect-info {
+  height: 180px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 30px 60px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11,44 +91,15 @@ html {
 }
 
 .page {
-  max-width: 100%;
+  max-width: 640px;
   height: 100vh;
   display: flex;
   margin: auto;
+  background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
 }
 
 .container {
   margin: auto;
-}
-
-.top-section {
-  padding: 0 80px;
-}
-
-.page-header {
-  margin-top: 40px;
-}
-.page-header .logo {
-  width: 180px;
-  height: 50px;
-  display: flex;
-  font-size: 20px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #1968FC;
-  padding: 10px 0;
-}
-.page-header .logo__image {
-  margin-right: 10px;
-}
-
-.presentation__title {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 60px;
-  letter-spacing: 1px;
 }
 
 /*# sourceMappingURL=styles.css.map */

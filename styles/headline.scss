@@ -1,0 +1,62 @@
+
+.headline{
+    &__title{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 1px;
+        padding: 0 80px;
+        margin-top:80px
+    }
+
+    &__description{
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 40px;
+        padding: 0 80px;
+    };
+
+    &__btn{
+        background: #1968FC;
+        box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+        color: #fff;
+        text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        width: 300px;
+        height: 50px;
+        margin: 40px 80px 0 80px;
+        border: none;
+        outline: none;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+    };
+    &__ilustration{
+        margin-top: 80px;
+        padding: 0 20px;
+        & img {
+            max-width: 100%;
+        }
+    }
+}
+.redirect-info{
+    height: 180px;
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 30px 60px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
